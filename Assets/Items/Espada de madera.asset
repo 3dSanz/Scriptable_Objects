@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Espada de madera
   m_EditorClassIdentifier: 
   itemType: 0
-  itemName: Espada de madera
-  itemDescription: Palo de roble con un filo de mierda
+  itemName: Espada de crotolamo
+  itemDescription: Induce el estado permatrago al objetivo
   itemPrice: 1
   itemSprite: {fileID: 2747690628134850419, guid: 16037dbd798344f57a526d53d48f5ead, type: 3}
