@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEditor.Progress;
 
 
 public class TraductorTexto : MonoBehaviour
@@ -15,6 +16,12 @@ public class TraductorTexto : MonoBehaviour
         textoUI = GetComponent<Text>();
         // Asigna la primera traducción al objeto de texto
         textoUI.text = traducciones.Traduccion;
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        //InventoryManager.instance.AddItem(traducciones);
+        Destroy(this.gameObject);
     }
 
 }
