@@ -17,23 +17,6 @@ public class InventoryManager : MonoBehaviour
         instance = this;
     }
 
-    /*public void AddItem(ScriptableItem item)
-    {
-        for(int i = 0; i < weapons.Length; i++)
-        {
-            if(weapons[i] == null)
-            {
-                weapons[i] = item;
-                weaponsNames[i].text = item.itemName;
-                weaponsSprites[i].sprite = item.itemSprite;
-                weaponsSlots[i].slotItem = item;
-                weaponsSlots[i].slotNumber = i;
-
-                return;
-            }
-        }
-    }*/
-
     public void AddItem(ScriptableItem item)
     {
         for (int i = 0; i < weapons.Length; i++)
